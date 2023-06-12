@@ -1,0 +1,179 @@
+html{
+    
+    box-sizing: border-box;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    
+    box-sizing: border-box;
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+nav{
+  border-bottom: 1px solid gray;
+}
+.nameCart{
+    display: flex;
+    place-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    color: white;
+}
+
+#logo{
+ color: royalblue;
+}
+
+.logIn{
+  position: relative;  
+  right: 80px;
+  top: 20px;
+}
+
+#butn{
+     margin-left: 100px;
+     margin-bottom: 20px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    width: 95px;
+    height: 35px;
+    
+    
+    font-size: 13px;
+}
+.card p{
+text-align: center;
+color: black;
+}
+.box{
+  padding-top: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,3fr);
+    gap: 15px;
+    height: 45px;
+    
+}
+
+.offcanvas{
+    width:40% !important;
+}  
+
+ .column{
+   
+    font-size: 35px;
+    float: left;
+    width: 33.33%;
+    padding: 16px;
+
+}
+.row {
+  width: 100%;
+  
+} 
+.price{
+    position: relative;
+    bottom: 165px;
+}
+#trashrem{
+    position: relative;
+    bottom: 197px;
+}
+.part-3{
+   position: relative;
+   bottom: 120px;
+}
+
+.Snippets{
+    border-bottom: 1px solid gray;  
+}
+.final-sec{
+     position: relative;
+     
+    top: 330px; 
+    right: 40px; 
+    
+}
+#badge{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+
+ .Pro-Name{
+    position: relative;
+    bottom: 60px;
+    
+} 
+/* .Units{
+    display: grid;
+    grid-template-columns:auto ;
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+} */
+
+.unit-Cart{
+    margin-top: 33px;
+    padding-left: 70px;
+}
+.cart-Price{
+    position: relative;
+    bottom: 30px;
+}
+.cart-img{
+    margin-top: 33px;
+}
+.cart-Name{
+    margin-top: 33px;
+
+}
+.offcanvas-title{
+    text-align: center;
+  margin-left: 260px;
+  color: white;
+  background-color: rgb(215, 78, 78);
+  border: 1px solid rgb(215, 78, 78);
+  border-radius: 90%;
+  font-size: 23px;
+}
+.check-Out{
+    position: sticky;
+    bottom: 0;
+    margin-left: 290px;
+  margin-top: 350px;
+  color: white;
+    background-color: navy;
+    text-align: center;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 7px;
+    /* position: relative;
+    left: 550px;
+    top: 30px;
+    background-color: aquamarine;
+    text-align: justify; */
+}
+
